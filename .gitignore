@@ -1,6 +1,9 @@
 # Python environment
-venv/
 .venv/
+venv/
+env/
+
+# Python cache
 __pycache__/
 *.pyc
 
@@ -10,9 +13,8 @@ __pycache__/
 # VS Code
 .vscode/
 
-# Secrets
+# Environment variables and secrets
 .env
 
-# Temporary files
+# Logs
 *.log
-.DS_Store
